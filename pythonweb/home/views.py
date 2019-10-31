@@ -6,7 +6,7 @@ import os
 from django import forms
 from sqlite3 import Error
 import sqlite3
-from .functions import  generateInsertCommand # generateUpdateCommand, generateSelectCommand, generateDeleteCommand, convertFieldLisTToSQL
+#from .functions import  generateInsertCommand # generateUpdateCommand, generateSelectCommand, generateDeleteCommand, convertFieldLisTToSQL
 from django.template.loader import get_template
 from django.contrib.auth.decorators import login_required
 ######
